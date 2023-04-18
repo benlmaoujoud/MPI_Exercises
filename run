@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mpicc $1.c -o $1
+mpirun -np $2 -oversubscribe ./$1
