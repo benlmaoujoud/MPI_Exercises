@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
-#define N 4
+#define N 100
 
 double t1 , t2; 
 int main(int argc, char** argv) {
