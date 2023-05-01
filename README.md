@@ -2,8 +2,8 @@
 This repository contains my solutions for an MPI exercise.
 ## Requirements
 
-Item1 MPICH (or any other MPI implementation)
-Item2 C compiler (e.g. gcc)
+* Item1 MPICH (or any other MPI implementation)
+* Item2 C compiler (e.g. gcc)
 
 ## Usage
 
