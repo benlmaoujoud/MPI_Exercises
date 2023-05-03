@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
     // Allocate memory for the matrix on process 0
     if (rank == 0) {
         matrix = (int*) malloc(N*N * sizeof(int));
-        printf("Initit the matrix : \n");
+        printf("Init the matrix : \n");
         for (i = 0; i < N; i++) {
            for (j = 0; j < N; j++) {
                 matrix[i*N +j] = rand() %1000;
